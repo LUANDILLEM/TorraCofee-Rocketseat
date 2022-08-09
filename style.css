@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #ffedd5;
+}
+
+/* ####################### header ######### */
+
+header {
+  align-items: center;
+  padding: 32px 0;
+}
+
+h1 {
+  font-family: 'Roboto Serif';
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #2d2c2a;
+  text-transform: uppercase;
+}
+
+header p {
+  text-align: center;
+  font-size: 14px;
+}
+
+span {
+  color: rgba(153, 80, 0, 1);
+}
+
+/* ###################### Brunch #########*/
+section,
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+
+  margin: 0px auto;
+}
+.details {
+  align-items: center;
+  gap: 24px;
+}
+
+.details h2 {
+  background: #fed7aa;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.details ul {
+  display: grid;
+  grid-template-areas:
+    'subtitle price'
+    'paragraph paragraph';
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.details p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 21px;
+
+  color: rgba(0, 0, 0, 0.6);
+
+  width: 240px;
+  height: 63px;
+}
+
+.excecao {
+  margin-bottom: 20px;
+}
+strong {
+  font-family: 'Roboto Serif';
+  color: #2d2c2a;
+}
+
+/* ##################  footer  ###################### */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+
+  background-color: #fed7aa;
+}
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.social-links-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.direitos-autorais a {
+  color: #2d2c2a;
+  text-decoration: none;
+}
