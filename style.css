@@ -113,3 +113,32 @@ footer {
   color: #2d2c2a;
   text-decoration: none;
 }
+
+.direitos-autorais {
+  padding-right: 10px;
+}
+
+@media only screen and (max-device-width: 505px) {
+  .social-links,
+  .social-links-icon {
+    width: 0;
+  }
+
+  .social-links ul {
+    display: flex;
+    max-width: 50px;
+  }
+
+  .social-links-icon {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+
+  .direitos-autorais {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px;
+    padding-left: 20px;
+  }
+}
